@@ -1,8 +1,11 @@
-import { MoonIcon, SearchForm } from '@/components';
+
+import { MoonIcon, SearchForm, UserCard } from '@/components';
+
+
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center px-96 py-10">
+    <main className="flex flex-col items-center justify-center px-80 py-10">
       <header className='flex flex-col justify-between w-full items-center'>
         <div className='flex justify-between w-full'>
           <h1 className='text-xl font-bold text-center'>devfinder</h1>
@@ -15,6 +18,9 @@ export default function Home() {
           <SearchForm />
         </div>
       </header>
+      <section className='mt-5 w-full'>
+        <UserCard/>
+      </section>
     </main>
   )
 }
