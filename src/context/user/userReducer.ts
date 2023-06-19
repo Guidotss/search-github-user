@@ -1,5 +1,5 @@
 import { User } from '@/interfaces'
-import { UserState } from '.'
+import { UserState } from '..'
 
 
 type UserActionType =

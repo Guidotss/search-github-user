@@ -4,3 +4,4 @@ export * from './LocationIcon';
 export * from './CompanyIcon'; 
 export * from './WebsiteIcon'; 
 export * from './TwitterIcon'; 
+export * from './SunIcon'; 

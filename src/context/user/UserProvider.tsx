@@ -1,6 +1,6 @@
 "use client"
 import { FC, useReducer } from 'react'; 
-import { UserContext, userReducer } from '.'
+import { UserContext, userReducer } from '..'
 import { User } from '@/interfaces';
 
 interface UserProviderProps {

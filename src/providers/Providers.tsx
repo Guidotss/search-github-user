@@ -1,6 +1,6 @@
 "use client"
 import React, { FC } from 'react'; 
-import { UserProvider } from '@/context';
+import { UiProvider, UserProvider } from '@/context';
 
 interface ProvidersProps {
     children: React.ReactNode;
@@ -8,6 +8,10 @@ interface ProvidersProps {
 
 export const Providers:FC<ProvidersProps> = ({ children }) => {
   return (
-    <UserProvider>{children}</UserProvider>
+    <UiProvider> 
+      <UserProvider>
+        {children}
+      </UserProvider>
+    </UiProvider>
   )
 }
