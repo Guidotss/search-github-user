@@ -1,10 +1,10 @@
 
 import { Providers } from "@/providers";
 import "./globals.css";
-import { Jost } from "next/font/google";
+import { Space_Mono } from "next/font/google";
 
+const jost = Space_Mono({ weight:"400", subsets:["latin"] }); 
 
-const jost = Jost({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Create Next App",
