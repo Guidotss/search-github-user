@@ -10,7 +10,7 @@ export const UserCard = () => {
   const { theme } = useContext(UiContext); 
 
   return (
-    <div className={`w-full h-[419px] ${ theme == 'light' ? 'bg-white' : 'bg-deep_indigo' } rounded-2xl shadow-lg px-10 py-12`}>
+    <div className={`w-full  h-[419px] ${ theme == 'light' ? 'bg-white' : 'bg-deep_indigo' } rounded-2xl shadow-lg px-10 py-12`}>
       <div className="flex">
         <Image
           src={user.avatar_url}
