@@ -15,7 +15,6 @@ export async function POST(req:Request) {
     }
     const { data } = await octokit.request("GET /users/{username}", {
         username: name,
-    });
-    console.log(name); 
+    }); 
     return NextResponse.json(data);
 }
